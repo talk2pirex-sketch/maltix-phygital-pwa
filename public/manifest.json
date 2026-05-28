@@ -1,0 +1,48 @@
+{
+  "name": "Maltix Phygital",
+  "short_name": "Maltix",
+  "description": "Phygital Document Library with Hierarchical Access",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#001a4d",
+  "icons": [
+    {
+      "src": "/maltix-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/maltix-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/maltix-icon-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["productivity", "business"],
+  "shortcuts": [
+    {
+      "name": "My Documents",
+      "short_name": "Docs",
+      "description": "Access your document library",
+      "url": "/?section=documents",
+      "icons": [{"src": "/maltix-icon-192.png", "sizes": "192x192"}]
+    },
+    {
+      "name": "Create Document",
+      "short_name": "Create",
+      "description": "Create a new document",
+      "url": "/?section=create",
+      "icons": [{"src": "/maltix-icon-192.png", "sizes": "192x192"}]
+    }
+  ]
+}
